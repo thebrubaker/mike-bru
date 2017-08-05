@@ -11,14 +11,20 @@
 </script>
 
 <style lang="scss">
+  // #74ebd5
+  // #ACB6E5
   * {
     box-sizing: border-box;
   }
   body {
     margin: 0;
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 2px;
+  }
   #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: hsl(0, 10%, 25%);
@@ -26,7 +32,7 @@
   }
   a {
     color: #2c3e50;
-    border-bottom: 1px solid #FFB88C;
+    border-bottom: 1px solid #74ebd5;
     text-decoration: none;
     &:hover {
       text-decoration: none;

@@ -22,9 +22,9 @@ export default {
     return {
       items: [
         {
-          href: 'https://www.twitter.com/joelbrubaker',
-          title: 'Twitter',
-          text: 'Twitter'
+          href: 'https://vimeo.com/videobros',
+          title: 'Vimeo',
+          text: 'Vimeo'
         },
         {
           href: 'https://www.github.com/thebrubaker',

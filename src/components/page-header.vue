@@ -2,9 +2,9 @@
   <header class="page__header">
     <div class="stripe" :class="{ slide }"></div>
     <transition name="slide-right">
-      <span class="name" v-if="sidebar">Joel Brubaker</span>
+      <span class="name" v-if="sidebar">Mike Brubaker</span>
     </transition>
-    <button class="menu" :class="{ active: sidebar }" type="button" @click="toggle">menu</button>
+    <!-- <button class="menu" :class="{ active: sidebar }" type="button" @click="toggle">menu</button> -->
   </header>
 </template>
 
@@ -69,7 +69,7 @@ export default {
     transform: translateY(-48px);
     transition: 0.2s;
     background: rgba(222, 98, 98, 0.6);
-    background: linear-gradient(to right, rgba(255, 184, 140, 0.8), rgba(222, 98, 98, 0.8));
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
     backdrop-filter: blur(2px);
   }
   .stripe.slide {
@@ -78,12 +78,13 @@ export default {
     transform: translateY(0);
   }
   .name {
+    text-transform: uppercase;
     position: absolute;
     top: 15px;
     left: 20px;
     color: white;
     font-weight: 800;
-    font-size: 20px;
+    font-size: 16px;
   }
   .menu {
     background-color: transparent;

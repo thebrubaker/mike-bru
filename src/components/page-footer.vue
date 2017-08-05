@@ -1,7 +1,7 @@
 <template>
   <footer class="page__footer">
-    <p>© {{ year }} Joel Brubaker</p>
-    <p>This website was designed and developed by me, Joel Brubaker. I build applications for the modern web. Feel free to follow me on <a href="http://www.twitter.com/joelbrubaker">Twitter</a>.</p>
+    <p>© {{ year }} Michael Brubaker</p>
+    <p>This website was designed and developed by my brother, <a href="https://www.joelbrubaker.com">Joel Brubaker</a>.</p>
   </footer>
 </template>
 

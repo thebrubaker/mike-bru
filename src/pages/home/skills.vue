@@ -128,7 +128,7 @@ export default {
     h1 {
       font-size: 1.5em;
       font-family: 'Montserrat';
-      border-bottom: 3px solid #FFB88C;
+      border-bottom: 3px solid #74ebd5;
       display: inline-block;
       @media (min-width: $small) {
         font-size: 24px;
