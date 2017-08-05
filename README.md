@@ -1,6 +1,6 @@
-# Joel Brubaker
+# Mike Bru
 
-> My personal website.
+> My brother's personal website.
 
 ## Build Setup
 
