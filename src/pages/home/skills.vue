@@ -3,43 +3,43 @@
     <div class="container">
       <div class="summary">
         <h1>Expertise & Knowledge</h1>
-        <p>I build applications of all sizes, from rapid single-page prototypes to large-scale backends with RESTful APIs. Knowing the full stack gives me the flexibility to choose the right tool for the job.</p>
+        <p>I build advertisements for both large companies and small passion projects. My approach is always finding a good flow, capturing the strong points of excellent Photoshop design, and turning that into a moving masterpiece. After Effects is my muse. While most daydream at night about the perfect life, I stir in bed dazzled by a designed I haven’t created yet.</p>
       </div>
       <div class="cards">
         <div class="card" v-if="showCards">
           <div class="left">
-            <laravel-icon width="35" height="35" />
+            <after-effects-icon width="35" height="35" />
           </div>
           <div class="right">
-            <h1>Laravel</h1>
-            <p>A modern toolkit for building high-quality, well-tested backends and RESTful APIs.</p>
+            <h1>After Effects</h1>
+            <p>The industry-standard animation and creative compositing app lets you design and deliver professional motion graphics.</p>
           </div>
         </div>
         <div class="card" v-if="showCards">
           <div class="left">
-            <vue-icon width="35" height="35" />
+            <premiere-icon width="35" height="35" />
           </div>
           <div class="right">
-            <h1>Vue.js</h1>
-            <p>A javascript framework for rapid interface development and lightning-fast single page apps.</p>
+            <h1>Premiere</h1>
+            <p>Industry-leading video editing software, you can edit virtually any type of media in its native format and create professional productions for film, TV and web.</p>
           </div>
         </div>
         <div class="card" v-if="showCards">
           <div class="left">
-            <firebase-icon width="35" height="35" />
+            <photoshop-icon width="35" height="35" />
           </div>
           <div class="right">
-            <h1>Firebase</h1>
-            <p>Suite of tools for rapidly prototyping mobile applications, without managing infrastructure.</p>
+            <h1>Photoshop</h1>
+            <p>The world’s best imaging and design app is at the core of almost every creative project. Works across desktop and mobile devices to create and enhance everything.</p>
           </div>
         </div>
         <div class="card" v-if="showCards">
           <div class="left">
-            <gcs-icon width="35" height="35" />
+            <illustrator-icon width="35" height="35" />
           </div>
           <div class="right">
-            <h1>Google Cloud Platform</h1>
-            <p>Secure, global, high-performance, cost-effective infrastructure with the smartest tools available.</p>
+            <h1>Illustrator</h1>
+            <p>Everyone's standard vector graphics app lets you create logos, icons, sketches, typography, and complex illustrations for print, web, interactive, video, and mobile.</p>
           </div>
         </div>
       </div>
@@ -48,10 +48,10 @@
 </template>
 
 <script>
-import LaravelIcon from '~/components/laravel-icon'
-import VueIcon from '~/components/vue-icon'
-import GcsIcon from '~/components/gcs-icon'
-import FirebaseIcon from '~/components/firebase-icon'
+import PhotoshopIcon from '~/components/icons/photoshop'
+import IllustratorIcon from '~/components/icons/illustrator'
+import AfterEffectsIcon from '~/components/icons/after-effects'
+import PremiereIcon from '~/components/icons/premiere'
 
 export default {
   data () {
@@ -62,10 +62,10 @@ export default {
     }
   },
   components: {
-    LaravelIcon,
-    VueIcon,
-    GcsIcon,
-    FirebaseIcon
+    PhotoshopIcon,
+    IllustratorIcon,
+    AfterEffectsIcon,
+    PremiereIcon
   },
   props: {
 

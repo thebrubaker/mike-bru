@@ -1,15 +1,15 @@
 <template>
   <div class="introduction" :style="height ? style : null">
+    <div class="headline">
+      <h2>Hello, I'm Mike.</h2>
+      <p>I'm an experienced motion graphics artist whose favorite tools are wrapped around making excellent 2D content that excels in both eased movement and stellar design. I always seek balance and strive for a sharp elegance.</p>
+    </div>
     <div class="container">
       <div class="main-image">
         <div class="video-container">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/S5frLKghou0?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
-    </div>
-    <div class="headline">
-      <h2>Hello, I'm Mike.</h2>
-      <p>I'm an experienced motion graphics artist who loves making great content. My favorite tools include <a target="_blank" href="https://laravel.com/">Laravel</a>, <a target="_blank" href="https://vuejs.org/">Vue.js</a>, <a target="_blank" href="https://firebase.google.com/">Firebase</a> and <a target="_blank" href="https://cloud.google.com/">Google Cloud Platform</a>.</p>
     </div>
   </div>
 </template>
@@ -75,7 +75,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     z-index: 2;
-    padding: 20px 40px;
+    padding: 20px 30px;
     @media (min-width: 500px) {
       padding: 0;
       margin-right: 20px;

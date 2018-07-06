@@ -2,6 +2,7 @@
   <div class="section__hero pattern" :style="height ? style : null">
     <!-- <i class="material-icons md-48">video_library</i> -->
     <h1>Motion Graphics Artist</h1>
+    <a href="mailto:movalaker@gmail.com" class="button" role="button">Contact Me</a>
   </div>
 </template>
 
@@ -89,16 +90,20 @@ export default {
         border-radius: 2px;
       }
       a[role=button] {
+        font-family: Helvetica;
         width: 100%;
-        max-width: 320px;
+        max-width: 260px;
         padding: 13px;
         font-size: 16px;
-        background-color: white;
-        color: rgba(0,0,0,0.75);
+        text-transform: uppercase;
+        font-weight: 900;
+        background-color: #74ebd5;
+        color: white;
         border-radius: 6px;
         border: none;
+        margin-top: 40px;
         &:hover {
-          box-shadow:0px 0px 0px 1px rgba(0,0,0,0.8) inset;
+          box-shadow:0px 0px 0px 1px darken(#74ebd5,40) inset;
           cursor: pointer;
           text-decoration: none;
         }
